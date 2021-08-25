@@ -1,0 +1,24 @@
+{
+  "name": "ficr-add-users",
+  "version": "0.1.0",
+  "description": "API teste para app no heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jademir/ficr-add-users.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jademir/ficr-add-users/issues"
+  },
+  "homepage": "https://github.com/jademir/ficr-add-users#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
