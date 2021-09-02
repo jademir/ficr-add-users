@@ -1,3 +1,6 @@
+const env = require('dotenv')
+env.config()
+
 //importa o express
 const express = require('express')
 //cria o app do tipo express()
@@ -12,4 +15,6 @@ app.get('/', (req, res) => {
 })
 
 //coloca a aplicação para escutar na porta definida
-app.listen(port)
+app.listen(port, () => { 
+  console.log('API iniciada na porta ', port)
+})
